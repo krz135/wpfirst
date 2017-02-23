@@ -1,0 +1,175 @@
+/*******************
+GENERAL
+*******************/
+/*GENERAL*/
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+
+}
+#wrapper {
+  background: none;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  color: #4db8ff;
+}
+
+header {
+  background: #80ccff;
+  border-color: #33adff;
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 0 5px;
+  width: 100%;
+}
+h1, h2 {
+  color: #fff;
+}
+h1 {
+  font-family: 'Indie Flower', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+nav {
+  text-align: center;
+  background: #33adff;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+body {
+  background: #fff;
+  color: #999;
+}
+
+nav a, nav a:visited {
+  color: #fff;
+}
+
+nav a.selected, a:hover {
+  color: #008ae6;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 0 1em;
+}
+/*Pagina Portafolio*/
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+}
+
+/*NAVIGATION*/
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0 10px;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+/********************
+FOOTER
+******************/
+.social-icon{
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+  color: #ccc;
+  clear: both; /*Mantiene sin objetos a los lados del footer*/
+}
+/***********/
+/*Acerca de*/
+.profile-photo {
+  display: block;
+  margin: 0 auto 30px;
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+/*Contacto*/
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9m;
+}
+
+.contact-info a {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    min-height: 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.email a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
