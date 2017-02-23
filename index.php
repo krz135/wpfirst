@@ -1,0 +1,71 @@
+<?php
+<DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Christian Mozo | Desarrollador</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <header>
+      <a id="logo">
+      <h1>Christian Mozo</h1>
+      <h2>Desarrollador</h2>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="selected">Portafolio</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+    </header>
+    <div id="wrapper">
+      <section>
+        <ul id="gallery">
+          <li>
+            <a href="img/coding-01.jpg">
+            <img src="img/coding-01.jpg" alt="Proyectos con javascript">
+            <p>Proyectos con JavaScript</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/coding-02.jpg">
+            <img src="img/coding-02.jpg" alt="Proyectos con HTML">
+            <p>Proyectos con HTML</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/coding-06.jpg">
+            <img src="img/coding-06.jpg" alt="Plantillas Web">
+            <p>Plantillas Web</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/coding-09.jpg">
+            <img src="img/coding-09.jpg" alt="Flujo de Trabajo">
+            <p>Flujo de Trabajo</p>
+            </a>
+          </li>
+          <li>
+            <a href="img/coding-12.jpg">
+            <img src="img/coding-12.jpg" alt="Diseño">
+            <p>Diseño</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <footer>
+      <a href="https://twitter.com/Kyoper" target="_blank"><img src="img/twitter-wrap.png" alt="twitter logo"
+        class="social-icon"></a>
+      <a href="https://www.facebook.com" target="_blank"><img src="img/facebook-wrap.png" alt="facebook logo"
+        class="social-icon"></a>
+      <p>&copy; 2017 Christian Mozo</p>
+    </footer>
+  </body>
+</html>
+?>
