@@ -6,9 +6,9 @@ h1{
 	padding: 200px 0;
 /*	background:linear-gradient(90deg, black 0%,rgba(138, 149, 151, 1.0) 25%, black 50%, rgba(138, 149, 151, 1.0) 75%, black 100%);
 */	
-	background:linear-gradient(90deg, black 0%,rgba(138, 149, 151, 1.0) 25%, #fff 50%, rgba(138, 149, 151, 1.0) 75%, black 100%);
+	background:linear-gradient(135deg,rgb(101, 112, 114) 5%,rgba(138, 149, 151, 1.0) 25%, #fff 60%, rgba(138, 149, 151, 1.0) 65%, rgb(101, 112, 114) 100%);
 
-	background-size: 1500%;
+	background-size: 2000%;
 
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
