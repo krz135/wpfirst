@@ -1,0 +1,22 @@
+h1{
+	position: absolute;
+	top: 50%;
+	left:25%;
+	margin: 0 auto;
+	font-size: 10em;
+	padding: 200px 0;
+/*	background:linear-gradient(90deg, black 0%,rgba(138, 149, 151, 1.0) 25%, black 50%, rgba(138, 149, 151, 1.0) 75%, black 100%);
+*/	
+	background:linear-gradient(90deg, black 0%,rgba(138, 149, 151, 1.0) 25%, #fff 50%, rgba(138, 149, 151, 1.0) 75%, black 100%);
+
+	background-size: 1500%;
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: toping 4s linear infinite;
+}
+
+@keyframes toping{
+	0%{background-position: 0% 50%}
+	100%{background-position: 100% 50%}
+}
